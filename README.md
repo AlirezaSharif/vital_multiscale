@@ -11,6 +11,7 @@ sudo docker run --name vital --rm -v path/to/root:/code -it alirezasharifzadeh/v
 ## Running the program
 ```shell
 cd CCO
+chmod +x example_1
 ./example_1
 cd ..
 cd MicrovascularModelling
