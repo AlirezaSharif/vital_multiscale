@@ -1,0 +1,7 @@
+{
+    "exclude": [
+        "outputs",
+        "tree_files",
+        "diagrams"
+    ]
+}
