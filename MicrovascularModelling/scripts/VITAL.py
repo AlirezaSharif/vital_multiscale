@@ -23,7 +23,7 @@ def main():
     config = Config.load_config(config_string)
     config.set_growth_case(growth_case)
     # Overwrite default config parameters for this experiment with the specified ones above
-    config.config_access["RUN_PARAMETERS"]["output_path"] = f"./outputs/test4"
+    config.config_access["RUN_PARAMETERS"]["output_path"] = f"./outputs/results"
     config.config_access["GROWTH_PARAMETERS"]["sprouting_strategy"] = 3
     config.config_access["GROWTH_PARAMETERS"]["pressure_strategy"] = pressure_strategy_num
     config.config_access["RUN_PARAMETERS"]["test_name"] = f"ratio_{ratio}"
