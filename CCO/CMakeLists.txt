@@ -17,12 +17,12 @@ include_directories("/usr/local/include/VItA-source")
 find_package(OpenGL REQUIRED)
 find_package(X11 REQUIRED)
 
-add_executable(example_1 example_1.cpp)
+add_executable(artery example_1.cpp)
 
 # --- 4. LINK LIBRARIES ---
 # libraries are in /usr/local/lib, which is a default search path.
 # We no longer need the complex "brute force" linking or GLOB patterns.
-target_link_libraries(example_1 
+target_link_libraries(artery 
     VItA
     ${VTK_LIBRARIES}
     ${OPENGL_LIBRARIES}

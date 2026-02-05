@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home
+CMAKE_SOURCE_DIR = /code/CCO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home
+CMAKE_BINARY_DIR = /code/CCO
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/CMakeFiles /home/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /code/CCO/CMakeFiles /code/CCO/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /code/CCO/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named example_1
+# Target rules for targets named artery
 
 # Build rule for target.
-example_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_1
-.PHONY : example_1
+artery: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 artery
+.PHONY : artery
 
 # fast build rule for target.
-example_1/fast:
-	$(MAKE) -f CMakeFiles/example_1.dir/build.make CMakeFiles/example_1.dir/build
-.PHONY : example_1/fast
+artery/fast:
+	$(MAKE) -f CMakeFiles/artery.dir/build.make CMakeFiles/artery.dir/build
+.PHONY : artery/fast
 
 example_1.o: example_1.cpp.o
 
@@ -129,7 +129,7 @@ example_1.o: example_1.cpp.o
 
 # target to build an object file
 example_1.cpp.o:
-	$(MAKE) -f CMakeFiles/example_1.dir/build.make CMakeFiles/example_1.dir/example_1.cpp.o
+	$(MAKE) -f CMakeFiles/artery.dir/build.make CMakeFiles/artery.dir/example_1.cpp.o
 .PHONY : example_1.cpp.o
 
 example_1.i: example_1.cpp.i
@@ -138,7 +138,7 @@ example_1.i: example_1.cpp.i
 
 # target to preprocess a source file
 example_1.cpp.i:
-	$(MAKE) -f CMakeFiles/example_1.dir/build.make CMakeFiles/example_1.dir/example_1.cpp.i
+	$(MAKE) -f CMakeFiles/artery.dir/build.make CMakeFiles/artery.dir/example_1.cpp.i
 .PHONY : example_1.cpp.i
 
 example_1.s: example_1.cpp.s
@@ -147,7 +147,7 @@ example_1.s: example_1.cpp.s
 
 # target to generate assembly for a file
 example_1.cpp.s:
-	$(MAKE) -f CMakeFiles/example_1.dir/build.make CMakeFiles/example_1.dir/example_1.cpp.s
+	$(MAKE) -f CMakeFiles/artery.dir/build.make CMakeFiles/artery.dir/example_1.cpp.s
 .PHONY : example_1.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... example_1"
+	@echo "... artery"
 	@echo "... example_1.o"
 	@echo "... example_1.i"
 	@echo "... example_1.s"

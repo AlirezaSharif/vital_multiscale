@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/example_1.cpp
+/code/CCO/example_1.cpp
 cmath
 -
 string

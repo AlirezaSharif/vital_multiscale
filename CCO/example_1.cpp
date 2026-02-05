@@ -38,13 +38,13 @@ void vascularise(string output_filename, AbstractConstraintFunction<double, int>
 
     // Boundary conditions - Flow, radius and position of the inlet 
     double q0 {1};
-    double r0 {1e-3};
+    double r0 {6e-6};
     //point x0 {0, 0.000125, 0.000125};
     //point x0 {0.00025, 0.000125, 0.000125};
     point x0 {0, 0.000125 - 2.5e-5, 0.000125};
     
     // Number of terminals to be generated
-    long long int n_term {100};
+    long long int n_term {20};
     // Domain geometry
     string input_vtk = "ex_3D.vtk";
     

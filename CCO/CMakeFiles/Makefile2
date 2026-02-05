@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home
+CMAKE_SOURCE_DIR = /code/CCO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home
+CMAKE_BINARY_DIR = /code/CCO
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/example_1.dir/all
+all: CMakeFiles/artery.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/example_1.dir/clean
+clean: CMakeFiles/artery.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/example_1.dir
+# Target rules for target CMakeFiles/artery.dir
 
 # All Build rule for target.
-CMakeFiles/example_1.dir/all:
-	$(MAKE) -f CMakeFiles/example_1.dir/build.make CMakeFiles/example_1.dir/depend
-	$(MAKE) -f CMakeFiles/example_1.dir/build.make CMakeFiles/example_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/CMakeFiles --progress-num=1,2 "Built target example_1"
-.PHONY : CMakeFiles/example_1.dir/all
+CMakeFiles/artery.dir/all:
+	$(MAKE) -f CMakeFiles/artery.dir/build.make CMakeFiles/artery.dir/depend
+	$(MAKE) -f CMakeFiles/artery.dir/build.make CMakeFiles/artery.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/code/CCO/CMakeFiles --progress-num=1,2 "Built target artery"
+.PHONY : CMakeFiles/artery.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/example_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/example_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/CMakeFiles 0
-.PHONY : CMakeFiles/example_1.dir/rule
+CMakeFiles/artery.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /code/CCO/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/artery.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /code/CCO/CMakeFiles 0
+.PHONY : CMakeFiles/artery.dir/rule
 
 # Convenience name for target.
-example_1: CMakeFiles/example_1.dir/rule
+artery: CMakeFiles/artery.dir/rule
 
-.PHONY : example_1
+.PHONY : artery
 
 # clean rule for target.
-CMakeFiles/example_1.dir/clean:
-	$(MAKE) -f CMakeFiles/example_1.dir/build.make CMakeFiles/example_1.dir/clean
-.PHONY : CMakeFiles/example_1.dir/clean
+CMakeFiles/artery.dir/clean:
+	$(MAKE) -f CMakeFiles/artery.dir/build.make CMakeFiles/artery.dir/clean
+.PHONY : CMakeFiles/artery.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
