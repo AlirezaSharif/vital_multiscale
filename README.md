@@ -6,7 +6,7 @@ sudo docker pull alirezasharifzadeh/vital_multiscale:v1
 ```
 After cloning the current repository on your local machine, go to the its directory and run the following:
 ```shell
-sudo docker run --name vital --rm -v path/to/root:/code -it alirezasharifzadeh/vital_multiscale:v1
+sudo docker run --name vital --rm -v path/to/the/cloned/repo:/code -it alirezasharifzadeh/vital_multiscale:v1
 ```
 ## Running the program
 ```shell
