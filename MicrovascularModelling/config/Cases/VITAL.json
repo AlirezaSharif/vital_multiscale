@@ -1,0 +1,75 @@
+{
+    "PATH": {
+        "NODE_LIST_PATH": "./tree_files",
+        "SEGMENT_LIST_PATH": "./tree_files",
+        "JUNCTION_LIST_PATH": "./tree_files",
+        "MATRIX_A_PATH": "./config/matrix_a_file",
+        "VECTOR_B_PATH": "./config/vector_b_path",
+        "VECTOR_X_PATH": "./config/vector_x_path",
+        "MESH_PATH": "./meshes"
+    },
+    "AGE": {
+        "LAST_AGE": 0
+    },
+    "1D_CONDITIONS": {
+        "num_cells": 20,
+        "pressure_inlet": 32,
+        "pressure_outlet": 28.5,
+        "haematocrit_inlet": 0.45,
+        "wall_hydraulic_conductivity": 1e-12,
+        "kappa1": 0.5,
+        "solubility_O2": 3.1e-05,
+        "diffusivity_O2": 2.18e-09,
+        "half_saturation": 38,
+        "hill_exponent": 3,
+        "P_O2_in": 96,
+        "P_O2_out": 35,
+        "beta_ov": 0
+    },
+    "3D_CONDITIONS": {
+        "num_cells": 20,
+        "distant_pressure": -1,
+        "boundary_conductivity": 5e-11,
+        "tissue_hydraulic_conductivity": 1e-18,
+        "interstitial_viscosity": 0.0012,
+        "wall_hydraulic_conductivity": 1e-12,
+        "oncotic_gradient": 25,
+        "tissue_diffusion_coefficient_O2": 1.94e-09,
+        "consumption_rate_O2": 0.00233,
+        "michaelis_menten_constant": 1,
+        "tissue_solubility_O2": 3.83e-05,
+        "beta_ot": 0,
+        "far_field_O2": 0,
+        "wall_O2_permeability": 0.000475,
+        "O2_reflection": 0
+    },
+    "GROWTH_PARAMETERS": {
+        "search_radius": 1.5e-05,
+        "step_size": 5e-06,
+        "sprout_growth_limit": 0.0003,
+        "inhibition_range": 9e-05,
+        "activation_threshold": 1.5,
+        "stochastic": false,
+        "growth_anastomosis_boundary": 1.84,
+        "boundary_steepness": 5.0,
+        "flow_volume_ratio": 1.2,
+        "size_change_alpha": 4e-06,
+        "r_min": -1e-06,
+        "r_max": 3e-05,
+        "r_base": 3e-06,
+        "k_x": 0.015,
+        "k_up": 0.1,
+        "sprouting_strategy": 3,
+        "adaptation_strategy": 2,
+        "pressure_strategy": 1
+    },
+    "RUN_PARAMETERS": {
+        "cylinder_test": 0,
+        "predefined_mesh": 0,
+        "growth_type": 1,
+        "mesh_path": "./box.msh",
+        "output_path": "./outputs",
+        "test_name": "vessel_test",
+        "initial_geometry": "bifurcation"
+    }
+}
