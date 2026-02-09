@@ -13,6 +13,7 @@ By running the following command in your Docker environment, arterial (./artery)
 ```shell
 ./run.sh
 ```
+You can visualise the simulation results using Paraview. The generated output is in "outputs/results/ratio_1.4/test_metrics/case_165/growth_0.vtk"
 ## Exercise 1
 Write a code to execute "run.sh" 100 times and save the equivalent resistances into a CSV file. 
 Next, plot the distribution of resistances and determine whether we are dealing with an RVE or an SVE.
