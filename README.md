@@ -26,7 +26,7 @@ Windows users (cmd):
 ```shell
 sudo docker run --name vital --rm -v %cd%:/code -it alirezasharifzadeh/vital_multiscale:v1
 ```
-
+**Giving permission to execute the codes:**
 ```shell
 chmod +x ./CCO/vein ./CCO/artery run.sh
 ```
