@@ -30,9 +30,12 @@ sudo docker run --name vital --rm -v %cd%:/code -it alirezasharifzadeh/vital_mul
 ```shell
 chmod +x ./CCO/vein ./CCO/artery run.sh
 ```
+Now to see the magic, run this command:
+```shell
+./run.sh
+```
 
-
-## How does it work?
+## What did just happen?
 By running `./run.sh` command in your Docker environment, arterial (```./artery```) and venous (```./vein```) trees inside a specified cube (***ex_3D.vtk***) will be generated with random seeds.
 | ```./artery``` | ```./vein``` |
 | :---: | :---: |
