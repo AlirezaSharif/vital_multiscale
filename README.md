@@ -12,10 +12,11 @@ After cloning the current repository on your local machine, run the following co
 ```shell
 sudo docker run --name vital --rm -v path/to/the/cloned/repo:/code -it alirezasharifzadeh/vital_multiscale:v1
 ```
+**Danger!!!** replace `path/to/the/cloned/repo` with the path to the cloned repository!
 ```shell
 chmod +x ./CCO/vein ./CCO/artery run.sh
 ```
-**Danger!!!** replace `path/to/the/cloned/repo` with the path to the cloned repository!
+
 
 ## How does it work?
 By running `./run.sh` command in your Docker environment, arterial (```./artery```) and venous (```./vein```) trees inside a specified cube (***ex_3D.vtk***) will be generated with random seeds.
