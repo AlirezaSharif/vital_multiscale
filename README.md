@@ -59,6 +59,7 @@ By running `./run.sh` command in your Docker environment, arterial (```./artery`
 1. Introduce an additive noise term to the network's radii (`MicrovascularModelling/scripts/VITAL.py`). Assume that the noise amplitude is 10% of the original radii.
 2. Determine the statistics of the equivalent hemodynamic resistances (similar to the previous exercise).
 
+**Hint:** Looking for radii? Try radii!
 ***Important note:*** Unlike the previous exercise, use a fixed network (do not run `artery` and `vein`). 
 ## Exercise 3
 Well done! So far, you have investigated the effect of uncertainty in connectivity (***Exercise 1***) and parameters (***Exercise 2***) of microvascular networks on their equivalent hemodynamic resistance.
