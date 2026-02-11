@@ -13,6 +13,7 @@ After cloning the current repository on your local machine, run the following co
 sudo docker run --name vital --rm -v path/to/the/cloned/repo:/code -it alirezasharifzadeh/vital_multiscale:v1
 ```
 **Danger!!!** replace `path/to/the/cloned/repo` with the path to the cloned repository!
+
 **In the case you have problems finding the path:** after cloning the repository:
 ```shell
 cd vital_multiscale
