@@ -11,6 +11,8 @@ git clone https://github.com/AlirezaSharif/vital_multiscale.git
 After cloning the current repository on your local machine, run the following command:
 ```shell
 sudo docker run --name vital --rm -v path/to/the/cloned/repo:/code -it alirezasharifzadeh/vital_multiscale:v1
+```
+```shell
 chmod +x ./CCO/vein ./CCO/artery run.sh
 ```
 **Danger!!!** replace `path/to/the/cloned/repo` with the path to the cloned repository!
