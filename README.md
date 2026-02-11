@@ -35,7 +35,7 @@ Now to see the magic, run this command:
 ./run.sh
 ```
 
-## What did just happen?
+## What just happened?
 By running `./run.sh` command in your Docker environment, arterial (```./artery```) and venous (```./vein```) trees inside a specified cube (***ex_3D.vtk***) will be generated with random seeds.
 | ```./artery``` | ```./vein``` |
 | :---: | :---: |
